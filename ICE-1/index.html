@@ -5,7 +5,7 @@
 <head>
   <title>Kenjis's Page</title>
 </head>
-<link rel="stylesheet" href="stylesheets/main.css">
+<!-- <link rel="stylesheet" href="stylesheets/main.css"> -->
 
 <div class="topnav">
 <a class="active" href="#kenjispage">Kenji's Page</a>
@@ -17,30 +17,55 @@
   <h1 align ="center">Kenji's Page</h1>
   <h2 align ="center">Team FE Design Champs</h2>
   <div>
-    <img src="sketchFromclass.jpg" alt ="A picture of a sketch of the format for this homepage" width="300" height="400">
+    <div class="row">
+      <img src="sketchFromclass.jpg" alt ="A picture of a sketch of the format for this homepage" width="300" height="400">
+    </div>
     <p> This is a picture of the sketch we came up with that could be the template for this homepage </p>
 
-  <div>
-    <div><img <img src="https://media.licdn.com/media/AAIA_wDGAAAAAQAAAAAAAAoSAAAAJGIwZTJiZDFmLTRlYTMtNDFkNi05MjczLWFmNzVhZGY5ZTNlYQ.jpg" alt="Vibhuti face"
-     height="100" width="100" align="left"><div><br>
-     <p align ="right">Vibhuti Kanitkar </p><br>
-     Vibhuti is a 2nd year UMSI student who will be working full time for Microsoft in UX Design. She loves to draw and plan social events.<p/><br>
-  </div> <br>
+  <div class="row">
+    <div class="img-caption">
+      <img <img src="https://media.licdn.com/media/AAIA_wDGAAAAAQAAAAAAAAoSAAAAJGIwZTJiZDFmLTRlYTMtNDFkNi05MjczLWFmNzVhZGY5ZTNlYQ.jpg" alt="Vibhuti face"
+       height="200" width="200" align="center"><div><br>
+       <p><strong>Vibhuti Kanitkar</strong></p>
+    </div>
+    <div class="paragraph">
+      <p>
+        Vibhuti is a 2nd year UMSI student who will be working full time for Microsoft in UX Design. She loves to draw and plan social events.
+      </p>
+      <p>This is Vibhti's favorite song of 2017:</p>
+      <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/318727281&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
+    </div>
+  </div>
+<br>
 
-  <div><img <img src="https://static1.squarespace.com/static/57f6b9f6414fb577efc6c55f/t/5899c73be3df288fed2bf94b/1486473050105/?format=750w" alt="Kenji face"
-   height="100" width="100" align="left"><div><br>
-   <p align ="right">Kenji Kaneko </p><br>
-   This is Kenji's favorite video of 2017<p/><br>
+  <div class="row">
+    <div class="img-caption">
+      <img <img src="emeliaface.jpg" alt="Emelia's Face"
+       height="200" width="200" align="center"><div><br>
+       <p><strong>Emilia Hennessey</strong></p>
+    </div>
+    <div class="paragraph">
+      <p>
+        Emelia is a first year UMSI student who loves to code website and play the acoustic guitar.
+      </p>
+      <p>This is Emelia's favorite song of 2017:</p>
+      <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/338133098&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
+    </div>
+  </div>
+  <br>
+
+
+  <div class="row">
+    <div class="img-caption">
+      <img <img src="https://static1.squarespace.com/static/57f6b9f6414fb577efc6c55f/t/5899c73be3df288fed2bf94b/1486473050105/?format=750w" alt="Kenji face" height="200" width="200" align="center"><div><br>
+        <p><strong>Kenji Kaneko</strong></p>
+        <p>This is Kenji's favorite video of 2017:<p/>
 
    <iframe width="560" height="315" src="https://www.youtube.com/embed/9HywEqKy3fc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-  </div> <br>
-
-<div><img <img src="emeliaface.jpg" alt="Emelia face"
- height="100" width="100" align="left"><div><br>
- <p align ="right">Emelia Hennessy </p><br>
- Edit this to be what you want<p/><br>
-</div> <br>
+  </div>
+</div>
+<br>
 
 
 
@@ -50,15 +75,15 @@
 		<label for="dob">DOB:</label>
 		<input type="date" name="DOB" id = "dob"><br>
 
-		Please enter your choice of snack:<br>
-		<input type="radio" name="snack" value="pizza"> Pizza<br>
-  		<input type="radio" name="snack" value="donut"> Donut<br>
-  		<input type="radio" name="snack" value="vegan"> Vegan Stuff<br>
+		Please enter your choice of favorite music on this page:<br>
+		<input type="radio" name="music" value="98 Degrees"> 98 Degrees - Season of Love<br>
+  		<input type="radio" name="music" value="Charlie Puth"> Charlie Puth - One Call Away<br>
+  		<input type="radio" name="music" value="Justin Bieber"> Justin Bieber - Friends<br>
 
-  		Please enter your choice of drink:<br>
-		<input type="radio" name="snack" value="coffee"> Coffee<br>
-  		<input type="radio" name="snack" value="tea"> Tea<br>
-  		<input type="radio" name="snack" value="water"> Water<br>
+  		Please say who has the weirdest taste in music:<br>
+		<input type="radio" name="music" value="Kenji"> Kenji<br>
+  		<input type="radio" name="music" value="Emelia"> Emelia<br>
+  		<input type="radio" name="music" value="Vibhuti"> Vibhuti<br>
 	</form>
 
 </body>
