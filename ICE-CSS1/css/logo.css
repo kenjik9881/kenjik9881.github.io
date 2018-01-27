@@ -1,0 +1,66 @@
+body{
+	margin: 0 auto;
+}
+
+img{
+  float: left;
+  overflow: auto;
+  width: 150px;
+  height: 150px;
+  margin: 70px;
+  padding: 50px;
+  border: 3px solid black;
+}
+
+
+.hover:hover{
+   border-radius: 80px;
+}
+
+.hover:active{
+  border-radius: 80px;
+}
+
+.active:active{
+  opacity: 0.25;
+}
+
+.focus:active{
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.bar{
+width: 100%;
+height: 80px;
+background-color: #d3d3d3;
+position: fixed;
+bottom: 150px;
+}
+
+.square{
+  height: 40px;
+  width: 40px;
+  background-color: blue;
+  position:fixed;
+  bottom: 170px;
+}
+
+
+.square:focus{
+  animation: move-box 6s linear alternate 2;
+
+}
+@keyframes move-box{
+  100% {transform:translateX(1500px);}
+  }
+
+.square:active{
+  background-color: red;
+  animation: spin-box 4s linear alternate 2;
+}
+
+@keyframes spin-box{
+  100% {transform:rotate(360deg);}
+
+  }
