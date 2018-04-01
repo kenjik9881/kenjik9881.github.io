@@ -129,7 +129,7 @@ footer p{
   padding-left: 15px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 768px) {
   body {
     background-color: #ff6200;
     color: white;
