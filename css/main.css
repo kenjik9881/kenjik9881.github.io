@@ -30,7 +30,6 @@ margin-bottom: 5%;
 max-width: 60%;
 }
 
-
 .boxers img{
   height: 20vh;
   min-height: 300px;
@@ -62,6 +61,7 @@ font-family: 'Oswald', sans-serif;
 h1.super-title {
   font-size: 4.5rem;
   color: white;
+  font-weight: bold;
 }
 
 h1.secondary-title {
@@ -92,6 +92,13 @@ h1.secondary-title {
   margin-bottom: 10%;
 }
 
+.quote-card{
+  margin-top: 5%;
+  margin-bottom: 10%;
+  border-color: #041438;
+  border-width: 2px;
+}
+
 .intro-paragraph-books{
 margin-top: 5%;
 margin-bottom: 5%;
@@ -120,4 +127,11 @@ footer p{
 
 .icon{
   padding-left: 15px;
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    background-color: #ff6200;
+    color: white;
+  }
 }
