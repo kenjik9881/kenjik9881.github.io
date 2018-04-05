@@ -41,24 +41,20 @@
 	<script type="text/javascript">
 
 
-	// I used Two functions here.  Starter idea at:
-	// https://codepen.io/ColleenEMc/pen/XmZzWw
+
 	$(document).ready(function(){
 		$('.preview').on("mouseover focus", showImage);
 		$('.preview').on("mouseout blur", hideImage);
 	});
 
 function showImage(){
-	// var src = this.src;
 	$('#image').css("background-image", "url(" + this.src + ")");
 
-	// var alt = $(this).attr("alt");
 	$("#image").text(this.alt);
 
 
 }
 function hideImage(){
-	// var src = this.src;
 	$('#image').css("background-image", "");
 	$("#image").text('Hover over an image below.');
 
