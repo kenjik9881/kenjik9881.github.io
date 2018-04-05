@@ -131,10 +131,6 @@ footer p{
 }
 
 @media screen and (max-width: 768px) {
-  body {
-    background-color: #ff6200;
-    color: white;
-  }
   .card {
       max-width:100%;
       width: 100%;
