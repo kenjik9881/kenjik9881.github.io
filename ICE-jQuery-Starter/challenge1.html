@@ -2,14 +2,12 @@
 <html lang="en">
   <head>
     <title>JavaScript Challenges</title>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
     <script>
     $(document).ready(function(){
       $('#subscribe').click(function(){;
-      $("#emailfield").toggle("slow");
-    });  /*    YOUR jQuery CODE HERE */
+      $("#emailfield").toggle("fast");
+    }); 
     });
     </script>
   </head>
@@ -24,14 +22,12 @@
             Check to toggle the email field.
           </label>
         </div>
-
-        <div id="emailfield">
+        <div id="emailfield" style="display:none">
           <label>
             Email Address:
             <input type="text" name="email" id="email">
           </label>
         </div>
-
         <input type = "submit" value = "Go To Challenge 2">
       </fieldset>
     </form>
