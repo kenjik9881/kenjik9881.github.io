@@ -23,10 +23,13 @@
 <script>
 $("#hide").click(function(){
   $("#half-page-image-1").hide();
+  $("#half-page-image-2").css({"display": "block", "margin-left":"auto", "margin-right": "auto"});
 });
+
 
 $("#show").click(function(){
   $("#half-page-image-1").show();
+  $("#half-page-image-2").css({"display": "inline", "margin-left":"auto", "margin-right": "auto"});
 });
 
 </script>
