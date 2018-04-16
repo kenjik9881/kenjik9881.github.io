@@ -8,11 +8,6 @@
 
   <link rel="stylesheet" href="css/main.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script>
-  $("#hide").click(function(){
-    $("#half-page-image-1").hide();
-  });
-  </script>
 </head>
 
 <body>
@@ -22,10 +17,19 @@
   <img id ="half-page-image-2" src="images/UMSI-logo.jpg" alt="UMSI logo">
 </div>
 
-<p> just some text</p>
 <button id="hide">Hide Image</button>
 <button id="show">Show Image</button>
 
+<script>
+$("#hide").click(function(){
+  $("#half-page-image-1").hide();
+});
+
+$("#show").click(function(){
+  $("#half-page-image-1").show();
+});
+
+</script>
 
 </body>
 </html>

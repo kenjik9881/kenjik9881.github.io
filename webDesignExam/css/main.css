@@ -17,3 +17,7 @@ img {
    width:400px;
    height:312px;
 }
+
+body{
+   background-image: url("../images/light-veneer.jpg");
+}
